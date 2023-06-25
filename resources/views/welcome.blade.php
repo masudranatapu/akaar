@@ -28,6 +28,9 @@
             </div>
         </div>
     </nav>
+    <div class="container-fluid">
+        <h2 class="text-center">Welcome to akaar it ltd. Your trusted it company</h2>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

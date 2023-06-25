@@ -72,6 +72,24 @@ class HomeController extends Controller
         return redirect()->back()->with('msg', 'Data successfully delete');
     }
 
+    public function c_filter(Request $request)
+    {
+        // dd($request->all());
+        
+        if($request->gender == "All") {
+            $customers = Customer::get();
+        }
 
+        if($request->gender == "Female") {
+            $customers = Customer::where('gender', $request->gender)->get();
+        }
 
+        if($request->gender == "Male") {
+            $customers = Customer::where('gender', $request->gender)->get();
+        }
+
+        $html = view('customer.table_data', compact('customers'))->render();
+        
+        return response()->json($html);
+    }
 }

@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\DB;
 class Customer extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'branch_id',
         'f_name',
@@ -100,5 +99,4 @@ class Customer extends Model
         $data['status'] = 1;
         return $data;
     }
-
 }
