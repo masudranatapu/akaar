@@ -1,5 +1,5 @@
 <div class="col-md-12">
-    <table class="table">
+    <table class="table table-striped table-bordered">
         <thead>
             <tr>
                 <th scope="col">SL NO</th>
