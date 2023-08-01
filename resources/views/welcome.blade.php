@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akeer It Task- Masud Rana Tapu</title></title>
+    <title>Akeer It Task- Masud Rana Tapu</title>
+    </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
                         <a class="nav-link active" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('c_list')}}">Customer List</a>
+                        <a class="nav-link" href="{{ route('c_list') }}">Customer List</a>
                     </li>
                 </ul>
             </div>
